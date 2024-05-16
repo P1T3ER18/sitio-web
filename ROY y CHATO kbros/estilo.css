@@ -1,0 +1,62 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    border: 5px solid red;
+    height: auto;
+    width: 75%;
+}
+header{
+    border: 1px solid red;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+#menu ul{
+    display: flex;
+    padding: 5px;
+}
+#menu li{
+    list-style-type: none;
+    margin: 5px;
+}
+#menu a{
+    text-decoration: dotted;
+    padding: 10px;
+    color: blue;
+}
+#logo{
+    height: 150px;
+    border:5px solid black;
+}
+nav{
+    border: solid black;
+    text-align: center;
+
+}
+main{
+    border: solid black;
+    text-align: center;
+    
+}
+section{
+    border: solid blue;
+    background-image: url(img/fuegoazulensuenos.jpg);
+    text-decoration: none;
+    color: antiquewhite;
+    
+}
+aside{
+    border: solid orangered;
+    background-image: url(img/desktop-wallpaper-fire-red-fire.jpg);
+    text-decoration: none;
+    color: antiquewhite;
+    
+}
+footer{
+    border: solid black;
+    background-image: url(img/muestra-fuego-azul-rojo-sobre-fondo-negro_828075-6100.avif);
+    text-decoration: none;
+    color: antiquewhite;
+}
